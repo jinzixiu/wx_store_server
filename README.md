@@ -26,3 +26,31 @@ https://blog.csdn.net/weidong_y/article/details/79636386
 https://www.npmjs.com/package/ftp-sync-works
 
 https://blog.csdn.net/qq_33616529/article/details/79080141
+
+
+
+{
+  "config": {
+    "remote_list":[
+      {
+        "remote_host": "doc..club",
+        "remote_port": 22,
+        "remote_username": "root",
+        "remote_password": "",
+        "remote_path": "/home/store/"
+      }
+    ],
+    "ignore_file":[ ".syncrc.json","package-lock.json" ],
+    "ignore_dir":[ ".idea","node_modules",".git","bin","asyncFile" ],
+    "ignore_watch": "(.*___jb_tmp___)|(.*___jb_old___)|(.*idea.*)|(.*idea.*)|(.*git.*)|(.*git.*)|(.*cmake-build-.*)|(.*cmake-build-debug.*)"
+  }
+}
+
+
+
+
+https://blog.csdn.net/qq442270636/article/details/79274128
+
+https://blog.csdn.net/qq_34672907/article/details/85709981
+
+https://segmentfault.com/a/1190000014234141?utm_source=tag-newest
